@@ -1,0 +1,27 @@
+.col-lg{
+    background: #0c7103;
+    color: black;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(197, 197, 21);
+
+}
+.menu{
+    color: black;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(197, 197, 21);
+}
+.content{
+    color: black;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(197, 197, 21);
+}
+.footer{
+    color: black;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(197, 197, 21);
+}
+
