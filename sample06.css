@@ -1,0 +1,49 @@
+.green{
+    background: #93f933;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 200px;
+}
+.sky{
+    background: #22a4f5;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 200px;
+}
+.brown{
+    background: #87785d73;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 200px;
+}
+.violet{
+    background: #6010ba73;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 200px;
+}
+.light{
+    background: #d9dec3;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 200px;
+} 
+.yellow{
+    background: #e1cf05;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 200px;
+} 
+.lightvio{
+    background: #d0bde9;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 200px;
+} 
