@@ -1,0 +1,71 @@
+.col01{
+    background: #ecebbe;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.col02{
+    background:#ecebbe;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.img01{
+    max-width: 200px;
+}
+.para01{
+    text-align: left;
+    font-size: small;
+    font-family: 'Noticia Text', serif;
+}
+.col03{
+    background:#ecebbe; 
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.header{
+    font-family: 'Noticia Text', serif;
+    font-size: 100px;
+    font-style: italic;
+}
+.img02{
+    max-width: 150px;
+}
+.para02{
+    text-align: left;
+    font-size: small;
+    font-family: 'Noticia Text', serif;
+}
+.para03{
+    text-align: left;
+    font-size: small;
+    font-family: 'Noticia Text', serif;
+}
+.para04{
+    text-align: left;
+    font-size: small;
+    font-family: 'Noticia Text', serif;
+}
+.img03{
+    width: 100px;
+    
+}
+.para05{
+    text-align: left;
+    font-size: small;
+    font-family: 'Noticia Text', serif;
+}
+.img04{
+    max-width: 150px;
+}
+.para06{
+    text-align: left;
+    font-size: small;
+    font-family: 'Noticia Text', serif;
+}
+.para07{
+    text-align: left;
+    font-size: small;
+    font-family: 'Noticia Text', serif;
+}
