@@ -3,39 +3,51 @@
 }
 .thumb1{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .thumb2{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .thumb3{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .thumb4{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .desc1{
     background: #ece8e8;
     border: 1px;
     border-color: rgb(166, 162, 162);
     border-style: solid;
+    font-weight: bolder;
 }
 .desc2{
     background: #ece8e8;
     border: 1px;
     border-color: rgb(166, 162, 162);
     border-style: solid;
+    font-weight: bolder;
 }
 .desc3{
     background: #ece8e8;
     border: 1px;
     border-color: rgb(166, 162, 162);
     border-style: solid;
+    font-weight: bolder;
 }
 .desc4{
     background: #ece8e8;
     border: 1px;
     border-color: rgb(166, 162, 162);
     border-style: solid;
+    font-weight: bolder;
 }
 .header{
     background: #f2eeee;
@@ -49,11 +61,11 @@
 .para1{
     font-weight: bolder;
 }
-.get{
+/* .get{
     border: 1px;
     border-color: rgb(166, 162, 162);
     border-style: solid;
-}
+} */
 .getin{
     font-weight: bolder;
 }
@@ -65,7 +77,8 @@
 }
 .logo{
     background: #848383;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 160px;
 }
 .header1{
     background: #f2eeee;
@@ -75,6 +88,7 @@
 }
 .head1{
     font-weight: bolder;
+    font-size: x-large;
 }
 .para2{
     font-weight: bolder;
@@ -85,39 +99,63 @@
 }
 .thumb01{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .thumb02{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }.thumb03{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .item1{
     background: #ece8e8;
+    font-weight: bolder;
 }
 .item2{
     background: #ece8e8;
+    font-weight: bolder;
 }
 
 .item3{
     background: #ece8e8;
+    font-weight: bolder;
 }
 .thumb04{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .thumb05{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .thumb06{
     background: #848383;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .item4{
     background: #ece8e8;
+    font-weight: bolder;
 }
 .item5{
     background: #ece8e8;
+    font-weight: bolder;
 }
 .item6{
     background: #ece8e8;
+    font-weight: bolder;
+}
+button{
+    width: 100%;
+}
+.forms{
+    margin-left: 900px;
 }
 
 

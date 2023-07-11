@@ -5,25 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="webpage.css">
+    <link rel="stylesheet" href="webpage01.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
             <div class="col-lg col01 py-3">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="topbar text-white text-decoration-none" href="#">Top Bar Title</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link1 text-decoration-none ms-3 text-info" href="https://getbootstrap.com">Bootstrap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="link2 text-decoration-none ms-3 text-warning" href="https://www.python.org">Python</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="row mt-5 text-center">
-                <div class="col-lg col-sm-3 thumb1 py-5 me-2 ">Thumbnail</div>
-                <div class="col-lg col-sm-3 thumb2 py-5 me-2">Thumbnail</div>
-                <div class="col-lg col-sm-3 thumb3 py-5 me-2">Thumbnail</div>
-                <div class="col-lg col-sm-3 thumb4 py-5">Thumbnail</div>
-        </div>
-        <div class="row mt-1 text-center">
-                <div class="col-lg col-sm-3 desc1 py-2 me-2">Description</div>
-                <div class="col-lg col-sm-3 desc2 py-2 me-2">Description</div>
-                <div class="col-lg col-sm-3 desc3 py-2 me-2">Description</div>
-                <div class="col-lg col-sm-3 desc4 py-2 ">Description</div>
+        <div class="row  text-center">
+                <div class="col-lg  py-5 me-2 "><p class=" thumb1">Thumbnail</p>
+                <p class="desc1 py-3">Description</p></div>
+                <div class="col-lg  py-5 me-2"><p class=" thumb2">Thumbnail</p>
+                    <p class="desc2 py-3">Description</p></div>
+                <div class="col-lg  py-5 me-2"><p class=" thumb3">Thumbnail</p>
+                    <p class="desc3 py-3">Description</p></div>
+                <div class="col-lg py-5"><p class=" thumb4">Thumbnail</p>
+                    <p class="desc4 py-3">Description</p></div>
         </div>
         <div class="row mt-2">
             <div class="col-lg-8 header">
@@ -39,56 +48,86 @@
                 </div>
             </div>
             <div class="col-lg">
-                <div class="row ms-3">
-                    <div class="col-lg get py-2"><p class="getin">Get In Touch!</p></div>
+                <div class="row ">
+                    <div class="col-lg get py-2">
+                        <div>
+                        <p class="getin">Get In Touch!</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="row mt-3 ms-3">
-                    <div class="col-lg blue1 py-4"></div>
-                </div>
-                <div class="row mt-3 ms-3">
-                    <div class="col-lg blue2 py-4"></div>
+                <div class="row ">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary py-3" type="button"> click me</button>
+                        <button class="btn btn-primary py-3 mt-2" type="button">click me</button>
+                      </div>
                 </div>
             </div>
         </div>
         <div class="row mt-3">
             <div class="col-lg-4">
-                <div class="row text-center ">
-                    <div class="col-lg logo ">logo</div>
+                <div class="row text-center mt-2 ">
+                    <div class="col-lg logo ">Logo</div>
                 </div>
                 <div class="row mt-3">
-                    <div class="col-lg header1 "><p class="head1">Header</p>
+                    <div class="col-lg header1 py-4 "><p class="head1">Header</p>
                     <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptas dolorum tenetur illum similique quia dolor incidunt eligendi recusandae.</p></div>
-                    <div class="row mt-3 text-center">
-                        <div class="col-lg blue3 py-3 ">99 items in your cart</div>
+                </div>
+                <div class="row mt-3">
+                        
+                    <div class="d-grid gap-2">
+                    <button class="btn btn-primary py-4" type="button">99 items in your cart</button>
                     </div>
+                
                 </div>
             </div>
-            <div class="col-lg">
-                <div class="row ms-3 text-center">
-                    <div class="col-lg col-sm-4 thumb01 py-5"><p>thumbnail</p></div>
-                    <div class="col-lg col-sm-4 thumb02 ms-3 py-5"><p>thumbnail</p></div>
-                    <div class="col-lg col-sm-4 thumb03 ms-3 py-5"><p>thumbnail</p></div>
-                </div>
-                <div class="row ms-3 mt-1 text-center   ">
-                    <div class="col-lg col-sm-4 item1 py-1"><p>Item Name</p>
-                    <p>$000.00</p></div>
-                    <div class="col-lg col-sm-4 item2 py-1 ms-3"><p>Item Name</p>
-                    <p>$000.00</p></div>
-                    <div class="col-lg col-sm-4 item3 py-1 ms-3"><p>Item Name</p>
-                    <p>$000.00</p></div>
-                </div>
-                <div class="row ms-3 text-center mt-2">
-                    <div class="col-lg col-sm-4 thumb04 py-5"><p>thumbnail</p></div>
-                    <div class="col-lg col-sm-4 thumb05 ms-3 py-5"><p>thumbnail</p></div>
-                    <div class="col-lg col-sm-4 thumb06 ms-3 py-5"><p>thumbnail</p></div>
-                </div>
-                <div class="row ms-3 mt-1 text-center   ">
-                    <div class="col-lg col-sm-4 item4 py-1"><p>Item Name</p>
-                    <p>$000.00</p></div>
-                    <div class="col-lg col-sm-4 item5 py-1 ms-3"><p>Item Name</p>
-                    <p>$000.00</p></div>
-                    <div class="col-lg col-sm-4 item6 py-1 ms-3"><p>Item Name</p>
-                    <p>$000.00</p></div>
+            <div class="col-lg mt-2">
+                <div class="row  text-center">
+                    <div class="col-lg-4">
+                        <div>
+                            <p class="thumb01">Thumbnail</p>
+                        </div>
+                        <p class="item1 py-4">Item Name </p>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div>
+                            <p class="thumb02">Thumbnail</p>
+                        </div>
+                        
+                        <p class="item2 py-4">Item Name</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div>
+                            <p class="thumb03">Thumbnail</p>
+                        </div>
+                       
+                        <p class="item3 py-4">Item Name </p>
+                    </div>
+              
+
+                
+                    <div class="col-lg-4">
+                        <div>
+                            <p class="thumb04">Thumbnail</p>
+                        </div>
+                        <p class="item4 py-4">Item Name </p>
+                    </div>
+
+                    <div class="col-lg-4 ">
+                        <div>
+                            <p class="thumb05">Thumbnail</p>
+                        </div>
+                        
+                        <p class="item5 py-4">Item Name </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div>
+                            <p class="thumb06">Thumbnail</p>
+                        </div>
+                       
+                        <p class="item6 py-4">Item Name </p>
+                    </div>
+
                 </div>
             </div>
         </div>
